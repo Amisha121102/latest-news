@@ -1,0 +1,13 @@
+.containerr{
+    display:flex;
+ flex-direction: row;
+ flex-flow: column wrap;
+}
+
+#copy1{
+    text-align: right;
+    position: relative;
+    float: right;
+    margin-left: 60vw;
+}
+
