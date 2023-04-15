@@ -1,12 +1,11 @@
-let apikey = '90a9793c69b546d480937f0179970745';
+// let apikey = '';
 let country = 'in';
-//90a9793c69b546d480937f0179970745
+
 console.log("welcome to news api");
-//https://newsapi.org/v2/top-headlines?country=in&apiKey=90a9793c69b546d480937f0179970745
 
 //GET REQUEST
 const xhr = new XMLHttpRequest();
-xhr.open('GET',`https://newsapi.org/v2/top-headlines?country=${country}&apiKey=${apikey}`,true);
+xhr.open('GET',`https://backend-latest-news.onrender.com/data`,true);
 xhr.onload = function () {
     if(this.status === 200){
 
@@ -39,6 +38,3 @@ xhr.onload = function () {
 }
 
 xhr.send();
-
-
-
