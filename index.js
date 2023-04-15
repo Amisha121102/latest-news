@@ -1,4 +1,4 @@
-let apikey = process.env.API_KEY;
+let apikey = '90a9793c69b546d480937f0179970745';
 let country = 'in';
 //90a9793c69b546d480937f0179970745
 console.log("welcome to news api");
